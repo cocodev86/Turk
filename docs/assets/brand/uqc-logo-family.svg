@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Unbreakable Quality Cutz logo family</title>
+  <desc id="desc">Vector presentation sheet containing the primary horizontal logo, stacked logo, monogram, reverse mark, and one-color variants.</desc>
+  <defs>
+    <style>
+      .carbon{fill:#121212}.forge{fill:#222426}.bone{fill:#F3EFE7}.amber{fill:#D98A24}.white{fill:#FFFFFF}
+      .label{font-family:Arial,Helvetica,sans-serif;font-size:24px;font-weight:700;letter-spacing:2px}
+      .word{font-family:Arial,Helvetica,sans-serif;font-size:78px;font-weight:800;letter-spacing:4px}
+      .sub{font-family:Arial,Helvetica,sans-serif;font-size:28px;font-weight:600;letter-spacing:6px}
+    </style>
+    <symbol id="uqc-mark" viewBox="0 0 240 240">
+      <path d="M34 34h38v112c0 29 17 46 48 46s48-17 48-46V34h38v116c0 52-34 84-86 84s-86-32-86-84V34z"/>
+      <path d="M91 72h58c29 0 49 18 49 46 0 21-11 36-29 42l27 32-27 22-35-44H91V72zm38 34v31h18c10 0 16-6 16-15 0-10-6-16-16-16h-18z" fill-rule="evenodd"/>
+      <path d="M78 48h84v26H78z"/>
+    </symbol>
+  </defs>
+
+  <rect width="1600" height="1200" class="bone"/>
+
+  <g transform="translate(80 70)">
+    <text class="label carbon" x="0" y="0">PRIMARY HORIZONTAL LOCKUP</text>
+    <g transform="translate(0 38)">
+      <rect width="1440" height="250" rx="20" class="white"/>
+      <g transform="translate(40 18) scale(.82)" class="carbon"><use href="#uqc-mark"/></g>
+      <text class="word carbon" x="285" y="120">UNBREAKABLE</text>
+      <text class="word carbon" x="285" y="198">QUALITY CUTZ</text>
+      <rect x="286" y="214" width="505" height="10" class="amber"/>
+    </g>
+  </g>
+
+  <g transform="translate(80 420)">
+    <text class="label carbon" x="0" y="0">STACKED + MONOGRAM</text>
+    <rect x="0" y="38" width="670" height="560" rx="20" class="white"/>
+    <g transform="translate(180 78) scale(1.3)" class="carbon"><use href="#uqc-mark"/></g>
+    <text class="word carbon" x="74" y="460" style="font-size:58px">UNBREAKABLE</text>
+    <text class="sub carbon" x="122" y="515">QUALITY CUTZ</text>
+    <rect x="144" y="540" width="382" height="9" class="amber"/>
+
+    <rect x="740" y="38" width="320" height="320" rx="42" class="carbon"/>
+    <g transform="translate(780 78)" class="bone"><use href="#uqc-mark"/></g>
+    <text class="label carbon" x="740" y="404">SOCIAL / APP MARK</text>
+
+    <rect x="1120" y="38" width="320" height="320" rx="42" class="amber"/>
+    <g transform="translate(1160 78)" class="carbon"><use href="#uqc-mark"/></g>
+    <text class="label carbon" x="1120" y="404">ACCENT VARIANT</text>
+  </g>
+
+  <g transform="translate(820 900)">
+    <rect x="0" y="0" width="700" height="200" rx="20" class="carbon"/>
+    <g transform="translate(28 0) scale(.82)" class="bone"><use href="#uqc-mark"/></g>
+    <text class="word bone" x="225" y="90" style="font-size:46px">UNBREAKABLE</text>
+    <text class="word bone" x="225" y="145" style="font-size:46px">QUALITY CUTZ</text>
+    <rect x="226" y="160" width="300" height="8" class="amber"/>
+  </g>
+
+  <text class="label carbon" x="80" y="1145">PROPOSED VECTOR SYSTEM — APPROVAL REQUIRED BEFORE PUBLIC USE</text>
+</svg>
