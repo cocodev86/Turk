@@ -2,16 +2,17 @@ import { render, screen } from "@testing-library/react";
 import HomePage from "./page";
 
 describe("HomePage", () => {
-  it("renders the engineering foundation status and approved boundaries", () => {
+  it("renders the public value proposition and primary booking actions", () => {
     render(<HomePage />);
 
     expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent(
-      "The engineering foundation is active."
+      "Precision that holds up after you leave the chair."
     );
-    expect(screen.getByRole("link", { name: "Review foundation" })).toHaveAttribute(
+    expect(screen.getByRole("link", { name: "Book an appointment" })).toHaveAttribute(
       "href",
-      "#foundation"
+      "/book"
     );
-    expect(screen.getByText("Guest-first appointment booking")).toBeInTheDocument();
+    expect(screen.getByText("Private hair-system consultations")).toBeInTheDocument();
+    expect(screen.getByText("Authentic proof only")).toBeInTheDocument();
   });
 });
